@@ -212,6 +212,13 @@
     }
 }
 
+@media (max-width: 575px) {
+    .page3-mobile{
+        width: 50%;
+        font-size: small;
+    }
+}
+
 
 
 .shadow-hr {
