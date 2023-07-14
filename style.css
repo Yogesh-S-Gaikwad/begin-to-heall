@@ -50,6 +50,12 @@
     }
    
 }
+@media(max-width: 575px){
+    .text-for-mobile{
+       width: 75%;
+       text-align: justify;
+    }
+}
 .imgbtn{
     background-color:white;
      /* padding: 1rem 2rem;  */
