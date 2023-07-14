@@ -88,10 +88,10 @@
 
 
 /* book section */
-.book-sec{
+.book-sec,.join-sec{
     background:#74b72e;
 }
-.book{
+.book,.join{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -101,11 +101,12 @@
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 4px;
-    border: 2px solid transparent;
+    border: 2px solid white;
 }
 
   .bookbtn:hover{
-    border: 2px solid white;
+    background-color: white !important;
+    color: #74b72e;
 }
 @media (max-width: 768px) {
     .book{
@@ -256,8 +257,8 @@
     margin: 0;
     height:10rem ;
     text-align: center ;
-    
 }
+
 .page-4-text{
     width: 50%;
     text-align: center;
@@ -283,3 +284,27 @@
         font-size: large !important;
     }
   }
+
+  /* page5 */
+  .page5-video{
+    position: relative;
+    bottom: 5rem;
+    left: 25%;
+  }
+  .page5-boxtext{
+    font-family: georgia;
+    font-size: small;
+  }
+  @media (max-width: 575px) {
+    .page5-video{
+        width: 90% !important;
+        left: 5% !important;
+        font-size: small;
+       
+    }
+    .page5-boxmobile{
+        width: 50% !important;
+        font-size: small !important;
+    }
+}
+
