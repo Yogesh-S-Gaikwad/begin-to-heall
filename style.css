@@ -364,11 +364,16 @@
         color: white;
     }
 
+    .footer-col{
+        padding-left: 1rem;
+    }
+
     @media (max-width: 575px) {
         .footer-col{
             width: 100% !important;
             text-align: center;
             margin: 0 !important;
+            padding: 0;
         }
         .footer-icon{
         display: none;
