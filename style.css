@@ -366,6 +366,12 @@
 
     .footer-col{
         padding-left: 1rem;
+        width: 15%;
+    }
+    @media (max-width: 768px) {
+        .footer-col{
+            width: 20%;
+        }
     }
 
     @media (max-width: 575px) {
